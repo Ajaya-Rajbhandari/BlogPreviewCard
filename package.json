@@ -1,0 +1,19 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blog preview card coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajaya-Rajbhandari/BlogPreviewCard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajaya-Rajbhandari/BlogPreviewCard/issues"
+  },
+  "homepage": "https://github.com/Ajaya-Rajbhandari/BlogPreviewCard#readme"
+}

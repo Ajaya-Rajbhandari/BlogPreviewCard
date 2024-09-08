@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      :root {
+        --clr-yellow: hsl(47, 88%, 63%);
+        --clr-white: hsl(0, 0%, 100%);
+        --clr-gray-500: hsl(0, 0%, 42%);
+        --clr-gray-950: hsl(0, 0%, 7%);
+      }
+
+      body {
+        background-color: var(--clr-yellow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container:hover {
+        cursor: pointer;
+      }
+      .container {
+        font-weight: 500, 800;
+        font-family: "Figtree", "Times New Roman", Times, serif;
+        background-color: var(--clr-white);
+        padding: 18px;
+        border-radius: 15px;
+        box-shadow: 10px 10px rgb(0, 0, 0);
+        width: 300px;
+        flex-direction: column;
+      }
+      .container p {
+        color: var(--clr-gray-500);
+        font-size: 14px;
+        margin-bottom: 30px;
+        line-height: 1.3rem;
+      }
+      .container h3 {
+        color: var(--clr-gray-950);
+        font-size: small;
+      }
+      img:nth-child(1) {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 10px 10px;
+      }
+      .model {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 10px 10px;
+        display: inline;
+        text-align: center;
+        font-weight: bolder;
+        color: var(--clr-gray-950);
+        font-weight: 800;
+      }
+      .model > img {
+        margin-top: -10px;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        float: left;
+        margin-right: 10px;
+      }
+      .container h2 {
+        width: 5rem;
+        text-align: center;
+        font-size: medium;
+        display: inline-block;
+        padding: 9px;
+        margin: 10px 0;
+        background-color: var(--clr-yellow);
+        border-radius: 5px;
+      }
+      span > h1 {
+        font-size: 1.2rem;
+        font-weight: bolder;
+      }
+      .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f9ce58;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+      .footer a {
+        text-decoration: none;
+        color: var(--clr-gray-950);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-align:center md:w-48">
+      <div class="w-16 md:w-32 lg:w-48">
+        <span class="text-3xl md:text-5xl lg:text-6xl">
+          <img src="/assets//images/illustration-article.svg" alt="SVG Image" />
+          <h2>Learning</h2>
+          <h3>Published 21 Dec 2023</h3>
+          <h1>HTML & CSS foundations</h1>
+          <p>
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </span>
+        <div class="model">
+          <img src="./assets/images/image-avatar.webp" alt="model" />
+          Greg Hooper
+        </div>
+      </div>
+      <!-- end of w-16 md:w-32 lg:w-48 -->
+    </div>
+    <div class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ajaya Rajbhandari</a>.
+      </div>
+    </div>
+  </body>
+</html>
