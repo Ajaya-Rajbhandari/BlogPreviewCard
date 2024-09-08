@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [BlogPreviewCard](https://github.com/Ajaya-Rajbhandari/BlogPreviewCard.git)
 
 ## My process
 
@@ -63,7 +63,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Ajaya Rajbhandari](https://www.your-site.com)
+- Website - [Ajaya Rajbhandari](https://developer-portfolio-ruby-nu.vercel.app)
 - Frontend Mentor - [@Ajaya-Rajbhandari](https://www.frontendmentor.io/profile/Ajaya-Rajbhandari)
 
 ## Acknowledgments
